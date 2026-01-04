@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BN Diana</title>
+
+        <!-- Icons -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="../css/home.css" />
+    </head>
+
+    <body>
+        <!-- ================= NAV ================= -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi bi-arrow-left-square-fill"></i>
+                </a>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#length">Length</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#design">Art Design</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#form">Form Type</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#extra">Extra’s</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ================= MAIN ================= -->
+        <main class="services-page">
+            <!-- HEADER -->
+            <header class="services-header">
+                <h1>Professional Nail Gallery</h1>
+                <p>Luxury nails crafted with precision & style</p>
+            </header>
+
+            <!-- ===== LENGTH ===== -->
+            <section class="services-section" id="length">
+                <h2>Length</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="../assets/img/2.jpg" alt="" />
+                        <h3>Nr 1 & 2</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="../assets/img/length3.jpg" alt="" />
+                        <h3>Nr 3 & 4</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="../assets/img/length5.jpg" alt="" />
+                        <h3>Nr 5</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="../assets/img/lengthxl.jpg" alt="" />
+                        <h3>Nr +5</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="../assets/img/refill.jpg" alt="" />
+                        <h3>Refill</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== NAIL ART ===== -->
+            <section class="services-section" id="design">
+                <h2>Nail Art Design</h2>
+                <div class="services-grid">
+                    <div class="service-card open-gallery" data-gallery="minimal">
+                        <img src="../assets/img/minimal.jpg" alt="" />
+                        <h3>Minimal</h3>
+                    </div>
+
+                    <div class="service-card open-gallery" data-gallery="medium">
+                        <img src="../assets/img/medium-design.jpg" alt="" />
+                        <h3>Medium</h3>
+                    </div>
+
+                    <div class="service-card open-gallery" data-gallery="full">
+                        <img src="../assets/img/full.jpg" alt="" />
+                        <h3>Full</h3>
+                    </div>
+
+                    <div class="service-card open-gallery" data-gallery="french">
+                        <img src="../assets/img/french.jpg" alt="" />
+                        <h3>French</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== FORM TYPE ===== -->
+            <section class="services-section" id="form">
+                <h2>Form Type</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="../assets/img/almond.jpg" alt="" />
+                        <h3>Oval</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="../assets/img/styletto.jpg" alt="" />
+                        <h3>Stiletto</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="../assets/img/square.jpg" alt="" />
+                        <h3>Square</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="../assets/img/coffin.jpg" alt="" />
+                        <h3>Coffin</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== EXTRAS ===== -->
+            <section class="services-section" id="extra">
+                <h2>Extra’s</h2>
+                <div class="services-grid">
+                    <div class="service-card open-gallery" data-gallery="steentjes">
+                        <img src="../assets/img/3steentjes.jpg" alt="" />
+                        <h3>Steentjes</h3>
+                    </div>
+
+                    <div class="service-card open-gallery" data-gallery="chrome">
+                        <img src="../assets/img/chrome.jpg" alt="" />
+                        <h3>Chrome</h3>
+                    </div>
+
+                    <div class="service-card open-gallery" data-gallery="3d">
+                        <img src="../assets/img/3d.jpg" alt="" />
+                        <h3>3D Gel</h3>
+                    </div>
+
+                    <div class="service-card open-gallery" data-gallery="folie">
+                        <img src="../assets/img/folie.jpg" alt="" />
+                        <h3>Folie Art</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- ================= POPUP GALLERY ================= -->
+        <!-- ================= POPUP GALLERY ================= -->
+        <div id="galleryModal" class="gallery-modal">
+            <div class="gallery-content">
+                <span class="close-btn">&times;</span>
+
+                <div id="galleryImages" class="gallery-grid"></div>
+
+                <!-- ✨ nieuwe description -->
+                <div id="galleryDescription" class="gallery-description"></div>
+            </div>
+        </div>
+
+        <!-- JS -->
+        <script src="../js/popup.js"></script>
+    </body>
+</html>
